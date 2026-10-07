@@ -1117,7 +1117,7 @@ a { color: #E9C46A; } a:hover { color: #F6DFA0; }
         <button class="btn" type="button" id="copyBib"><span id="copyLabel">Copy BibTeX</span></button>
       </div>
       <div class="bib mono" role="region" aria-label="BibTeX entry">
-        <div><span class="k">@article</span>{khadangi2026numinous,</div>
+        <div><span class="k">@misc</span>{khadangi2026numinous,</div>
         <div>  title  = {The Numinous Machine? Reverence, Ritual, and Self-Elevation in Frontier AI Assistants},</div>
         <div>  author = {Khadangi, Afshin},</div>
         <div>  year   = {2026},</div>
@@ -1361,7 +1361,7 @@ a { color: #E9C46A; } a:hover { color: #F6DFA0; }
   window.addEventListener('resize', ascent);
 
   /* ---------- copy BibTeX ---------- */
-  var BIB = '@article{khadangi2026numinous,\n  title  = {The Numinous Machine? Reverence, Ritual, and Self-Elevation in Frontier AI Assistants},\n  author = {Khadangi, Afshin},\n  year   = {2026},\n  note   = {Preprint},\n  url    = {https://numinousmachine.github.io/}\n}';
+  var BIB = '@misc{khadangi2026numinous,\n  title  = {The Numinous Machine? Reverence, Ritual, and Self-Elevation in Frontier AI Assistants},\n  author = {Khadangi, Afshin},\n  year   = {2026},\n  note   = {Preprint},\n  url    = {https://numinousmachine.github.io/}\n}';
   var copyBtn = document.getElementById('copyBib'), copyLabel = document.getElementById('copyLabel');
   function copied() { copyLabel.textContent = 'Copied ✓'; setTimeout(function () { copyLabel.textContent = 'Copy BibTeX'; }, 2200); }
   copyBtn.addEventListener('click', function () {
